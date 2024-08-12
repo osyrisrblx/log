@@ -6,6 +6,9 @@
     "prepublishOnly": "npm run build",
     "build": "tsc"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "",
   "license": "ISC",
   "description": "",
