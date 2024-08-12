@@ -2,6 +2,7 @@
   "name": "@osyris/log",
   "version": "1.0.1",
   "main": "out/index.js",
+  "typings": "out/index.d.ts",
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "tsc"
