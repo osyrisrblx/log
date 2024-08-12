@@ -1,6 +1,6 @@
 {
   "name": "@osyris/log",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "out/index.js",
   "scripts": {
     "prepublishOnly": "npm run build",
