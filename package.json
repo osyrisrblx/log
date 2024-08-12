@@ -16,5 +16,8 @@
   },
   "dependencies": {
     "kleur": "^4.1.5"
-  }
+  },
+  "files": [
+    "out"
+  ]
 }
