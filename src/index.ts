@@ -30,9 +30,11 @@ function createLogger(level: StructuredLog["level"], color: kleur.Color) {
 	};
 }
 
-export default {
+const log = {
 	debug: createLogger("debug", kleur.blue),
 	info: createLogger("info", kleur.white),
 	warn: createLogger("warn", kleur.yellow),
 	error: createLogger("error", kleur.red),
 };
+
+export default log;
